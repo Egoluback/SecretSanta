@@ -10,9 +10,6 @@ from vk_api import VkUpload
 from vk_api.longpoll import VkLongPoll, VkEventType
 from vk_api.utils import get_random_id
 from vk_api.bot_longpoll import VkBotLongPoll, VkBotEventType
-from google.oauth2 import service_account
-from googleapiclient.http import MediaIoBaseDownload,MediaFileUpload
-from googleapiclient.discovery import build
 
 
 def loadInfo():
