@@ -59,9 +59,9 @@ for i in range(len(sys.argv)):
 if (mode == "save"): saveInfo(result)
 elif (mode == "load"): result = loadInfo()
 
-API_KEY = "05b0d6177e4c408d5c33f30a6a579c8b3e15b8d1df8e9cf7aafbd08898c06d06228a686d36142277cd2a2"
+API_KEY = "YOUR_TOKEN"
 
-PUBLIC_ID = 190162848
+PUBLIC_ID = 0
 
 vk_session = vk_api.VkApi(token = API_KEY)
 vk_session._auth_token()
